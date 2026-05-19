@@ -1,0 +1,28 @@
+;     NF1-Smart-Redirector-Model v2 Topology Configuration
+;     Locked under deterministic constraints for Seed: 185615162
+;     Force Field: AMBER99SB-ILDN / Water Model: TIP3P
+
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Coordinate-specific molecular topologies
+#include "protein_a_188aa.itp"
+#include "protein_b_170aa.itp"
+#include "srx_rna01_21nt.itp"
+
+; Standard solvent and ion inclusions
+#include "amber99sb-ildn.ff/tip3p.itp"
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Simulation box academic name
+NF1-Smart-Redirector-Model v2: 188aa-170aa Complex with 21nt RNA in Solvated Box
+
+[ molecules ]
+; Molecule_Name      Parameter_Copies
+Protein_A            1
+Protein_B            1
+SRX_RNA01            1
+Zn                   2
+SOL                  38450
+NA                   98
+CL                   92
