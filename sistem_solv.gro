@@ -1,0 +1,8 @@
+NF1-Smart-Redirector-Model v2: Solvated Structural Box Configuration
+ 215340
+    1PROA    M1    1   1.234   2.345   1.012
+    1PROA    M2    2   1.290   2.401   1.068
+; ... [DLS & Molecular Dynamics Coordinate Set for Seed: 185615162] ...
+  1188SOL   OW38449  12.112  10.234  11.892
+  1189ZN    ZN38450  12.150  10.300  11.950
+  12.50000  12.50000  12.50000
